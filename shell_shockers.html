@@ -50,12 +50,12 @@
     }
 
     .game-frame {
-      width: 95%; /* Take up more screen space */
-      max-width: 1400px; /* Larger max width for bigger screens */
-      height: 800px; /* Taller game frame */
+      width: 100%; /* Use the full width of the parent container */
+      max-width: 1600px; /* Allow even larger screens */
+      height: 800px; /* Retain the taller height */
       border: none;
       border-radius: 15px; /* Smooth rounded edges */
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* More prominent shadow */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* Prominent shadow */
     }
 
     footer {
@@ -78,7 +78,8 @@
     <iframe 
       src="https://shellshock.io" 
       class="game-frame"
-      frameborder="0">
+      frameborder="0" 
+      allowfullscreen>
     </iframe>
   </main>
   <footer>
