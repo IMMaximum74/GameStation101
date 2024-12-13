@@ -8,9 +8,9 @@
   <style>
     /* Inline CSS for Shell Shockers page */
     body {
-      font-family: 'Press Start 2P', cursive; /* Retro gaming font */
-      background-color: #1a1a2e; /* Dark background for gaming theme */
-      color: #f5f5f5; /* Light text for better contrast */
+      font-family: Arial, sans-serif; /* Clean and readable font */
+      background-color: #0f0f1f; /* Deep dark blue for gaming ambiance */
+      color: #ffffff; /* White text for clear visibility */
       margin: 0;
       padding: 0;
       display: flex;
@@ -24,15 +24,16 @@
     }
 
     header h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin: 0;
-      color: #ff4b5c; /* Vibrant red for emphasis */
+      color: #e94560; /* Vibrant red for the title */
+      text-shadow: 2px 2px #000000; /* Adds depth to the title */
     }
 
     .back-link {
       text-decoration: none;
-      color: #57cc99; /* Soft green for links */
-      font-size: 1.2rem;
+      color: #4caf50; /* Calming green for links */
+      font-size: 1.3rem;
       font-weight: bold;
     }
 
@@ -45,39 +46,43 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      margin: 20px 0;
+      margin: 30px 0;
     }
 
     .game-frame {
-      width: 90%; /* Game frame takes up 90% of the width */
-      max-width: 1200px; /* Maximum width for larger screens */
-      height: 600px; /* Increased height for a bigger play area */
+      width: 95%; /* Take up more screen space */
+      max-width: 1400px; /* Larger max width for bigger screens */
+      height: 800px; /* Taller game frame */
       border: none;
-      border-radius: 10px; /* Rounded corners */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+      border-radius: 15px; /* Smooth rounded edges */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); /* More prominent shadow */
     }
 
     footer {
       text-align: center;
       margin-top: 20px;
-      padding: 10px;
-      background-color: #16213e; /* Slightly darker footer */
-      color: #f5f5f5;
-      font-size: 0.9rem;
+      padding: 15px;
+      background-color: #151531; /* Slightly darker footer */
+      color: #d3d3d3; /* Softer gray for footer text */
+      font-size: 1rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Shell Shockers</h1>
+    <h1>Play Shell Shockers</h1>
     <a href="index.html" class="back-link">Back to Home</a>
   </header>
   <main>
     <!-- Embed Shell Shockers game using an iframe -->
-    <iframe src="https://shellshock.io" frameborder="0" class="game-frame"></iframe>
+    <iframe 
+      src="https://shellshock.io" 
+      class="game-frame"
+      frameborder="0">
+    </iframe>
   </main>
   <footer>
-    <p>&copy; 2024 GameStation101. Powered by fun and freedom.</p>
+    <p>&copy; 2024 GameStation101. All rights reserved.</p>
   </footer>
 </body>
 </html>
