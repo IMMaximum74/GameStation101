@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  color: #fff;
+  font-family: Arial, sans-serif;
+  color: white;
   background: linear-gradient(to bottom, #1a1a2e, #16213e);
   text-align: center;
   line-height: 1.6;
@@ -26,7 +26,6 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #fff;
 }
 
 main {
